@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex" />
+        <szinesz id="u5q_4xm_2jb" type="gyerek">
+            <gyerek>Mary Sue</gyerek>
+            <musical>Adam Clarc</musical>
+            <szinkron>Walter White</szinkron>
+        </szinesz>
+        <iro id="trv_4xm_2jb"/>
+    </film>
+    <film>
+        <producer>John Doe</producer>
+        <dramaturg>Jane Doe</dramaturg>
+        <operator>Asd Dsa</operator>
+    </film>
+
+</mozi>
