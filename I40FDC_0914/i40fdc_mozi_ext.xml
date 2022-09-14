@@ -4,17 +4,16 @@
     <film id="txn_nxm_2jb" mufaj="horror">
         <rendezo id="nzk_4xm_2jb" nev="alex" />
         <szinesz id="u5q_4xm_2jb" type="gyerek">
-            <nev>Madison Ivy</nev>
+            <gyerek>Mary Sue</gyerek>
+            <musical>Adam Clarc</musical>
+            <szinkron>Walter White</szinkron>
         </szinesz>
-        <szinesz id="mul_4xm_2jb"  type="musical">
-            <nev>Jane Doe</nev>
-        </szinesz>
-        <szinesz id="skn_4xm_2jb"  type="szinkron">
-            <nev>John Doe</nev>
-        </szinesz>
-        <iro id="trv_4xm_2jb" />
-        <producer id="prd_4xm_2jb" />
-        <dramaturg id="drg_4xm_2jb" />
-        <operator id="opr_4xm_2jb" />
+        <iro id="trv_4xm_2jb"/>
     </film>
+    <film>
+        <producer>John Doe</producer>
+        <dramaturg>Jane Doe</dramaturg>
+        <operator>Asd Dsa</operator>
+    </film>
+
 </mozi>
