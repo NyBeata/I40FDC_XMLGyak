@@ -3,16 +3,13 @@
 <mozi>
     <film id="txn_nxm_2jb" mufaj="horror">
         <rendezo id="nzk_4xm_2jb" nev="alex" />
-        <szinesz type="gyerek">
-            <id>u5q_4xm_2jb</id>
+        <szinesz id="u5q_4xm_2jb" type="gyerek">
             <nev>Madison Ivy</nev>
         </szinesz>
-        <szinesz type="musical">
-            <id>mul_4xm_2jb</id>
+        <szinesz id="mul_4xm_2jb"  type="musical">
             <nev>Jane Doe</nev>
         </szinesz>
-        <szinesz type="szinkron">
-            <id>skn_4xm_2jb</id>
+        <szinesz id="skn_4xm_2jb"  type="szinkron">
             <nev>John Doe</nev>
         </szinesz>
         <iro id="trv_4xm_2jb" />
