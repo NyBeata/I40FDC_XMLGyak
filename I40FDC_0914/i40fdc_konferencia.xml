@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <konferencia>
-    <cim><cim>
+    <cim>Szakdolgozat tájékoztató<cim>
     <hallgatok>
-        <hallgato>
-            <nev></nev>
-            <lakcim></lakcim>
-        <hallgato>
-        <hallgato>
-            <nev></nev>
-            <lakcim></lakcim>
-        <hallgato>
-        <hallgato>
-            <nev></nev>
-            <lakcim></lakcim>
-        <hallgato>
+        <hallgato id="1">
+            <nev>Kiss Márton</nev>
+            <lakcim>3770 Sajószentpéter, Kandó Kálmán utca 6.</lakcim>
+        </hallgato>
+        <hallgato id="2">
+            <nev>Szabó Boglárka</nev>
+            <lakcim>3500 Miskolc, Kossuth Lajos út 20.</lakcim>
+        </hallgato>
+        <hallgato id="3">
+            <nev>Kovács Andrea</nev>
+            <lakcim>3515 Miskolc, Füge utca 11.</lakcim>
+        </hallgato>
     </hallgatok>
-    <helyszin></helyszin>
+    <helyszin>III. ea.</helyszin>
     <eloado>
-        <nev></nev>
-        <adoszam></adoszam>
-        <lakcim></lakcim>
+        <nev>Dr. Nagy Antónia</nev>
+        <adoszam>123456789</adoszam>
+        <lakcim>3770 Sajószentpéter, Móra Ferenc utva 2. </lakcim>
     </eloado>
-    <datum></datum>
+    <datum>2022.09.12.</datum>
 </konferencia>
