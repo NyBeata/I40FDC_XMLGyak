@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NyB_kurzusfelvetel SYSTEM "NyB_kurzusfelvetel.dtd">
+
+<NyB_kurzusfelvetel tanev="2022_2023 I." egyetem="ME">
+
+    <hallgato id="I40FDC.ME">
+        <hnev>Nyíri Beáta</hnev>
+        <szulev>2000-10-30</szulev>
+        <szak evf="5">Programtervezo informatikus</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEIAL332-B">
+            <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII.</hely>
+            <idopont>Kedd 12:00-13:30</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+        <kurzus id="GEIAL331-B" jovahagyas="igen">
+            <kurzusnev>Web technológiák 1</kurzusnev>
+            <kredit>5</kredit>
+            <hely>A1/305</hely>
+            <idopont>Hetfö 08:00-09:30</idopont>
+            <oktato>Agárdi Anita</oktato>
+        </kurzus>
+        <kurzus id="GEMAK234-B" nyelv="angol">
+            <kurzusnev>Algoritmusok és vizsgálatuk</kurzusnev>
+            <kredit>5</kredit>
+            <hely>A1/218-219</hely>
+            <idopont>Kedd 14:00-17:00</idopont>
+            <oktato>Dr. Házy Attila</oktato>
+            <oraado>Tóth Bence</oraado>
+        </kurzus>
+    </kurzusok>
+
+</NyB_kurzusfelvetel>
