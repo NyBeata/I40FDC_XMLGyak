@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE NyB_adatbazis [
+	<!ELEMENT NyB_adatbazis (dolgozo*) >
+	<!ELEMENT dolgozo (kod, nev, fizetes)>
+	<!ATTLIST dolgozo kod ID #REQUIRED >
+	<!ATTLIST dolgozo nev CDATA #IMPLIED >
+	<!ATTLIST dolgozo fizetes CDATA #IMPLIED >
+]>

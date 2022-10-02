@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NyB_adatbazis SYSTEM "NyB_adatbazis.dtd">
+
+<NyB_adatbazis>
+
+	<dolgozo kod="01" nev="Kiss Anna" fizetes="300000" />
+	<dolgozo kod="02" nev="Nagy Béla" fizetes="350000" />
+	<dolgozo kod="03" nev="Kovács Cecil" fizetes="400000" />
+
+</NyB_adatbazis>
