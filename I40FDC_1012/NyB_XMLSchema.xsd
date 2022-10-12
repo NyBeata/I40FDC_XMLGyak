@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NyB_XMLSchema" xmlns:tns="http://www.example.org/NyB_XMLSchema" elementFormDefault="qualified">
+
+	<!-- Egyszeru tipusok - Felepites -->
+	<xs:element name="vendeglatas">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="etterem" type="etteremTipus" maxOccurs="unbounded" />
+			<xs:element name="foszakacs" type="foszakacsTipus" maxOccurs="unbounded" />
+			<xs:element name="szakacs" type="szakacsTipus" maxOccurs="unbounded" />
+			<xs:element name="gyakornok" type="gyakornokTipus" maxOccurs="unbounded" />
+			<xs:element name="vendeg" type="vendegTipus" maxOccurs="unbounded" />
+			<xs:element name="rendeles" type="rendelesTipus" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Kulcsok -->
+	<xs:key name="etterem_kulcs">
+		<xs:selector xpath="etterem" />
+		<xs:field xpath="@ekod" />
+	</xs:key>
+	
+	<xs:key name="etterem_kulcs">
+		<xs:selector xpath="etterem" />
+		<xs:field xpath="@ekod" />
+	</xs:key>
+	
+	<xs:key name="etterem_kulcs">
+		<xs:selector xpath="etterem" />
+		<xs:field xpath="@ekod" />
+	</xs:key>
+	
+	<xs:key name="etterem_kulcs">
+		<xs:selector xpath="etterem" />
+		<xs:field xpath="@ekod" />
+	</xs:key>
+	
+	<xs:key name="etterem_kulcs">
+		<xs:selector xpath="etterem" />
+		<xs:field xpath="@ekod" />
+	</xs:key>
+	
+	<!-- Idegen kulcsok -->
+	
+	<xs:keyref refer="etterem_kulcs" name="etterem_idegen_kulcs">
+		<xs:selector xpath="rendeles"
+		<xs:field path="@e_v_e"
+	</xs:keyref>
+	
+	<xs:keyref refer="vendeg_kulcs" name="vendeg_idegen_kulcs">
+		<xs:selector xpath="rendeles"
+		<xs:field path="@e_f"
+	</xs:keyref>
+	
+	<xs:keyref refer="etterem_kulcs" name="etterem_foszakacs_idegen_kulcs">
+		<xs:selector xpath="foszakacs"
+		<xs:field path="@e_f"
+	</xs:keyref>
+	
+	<xs:keyref refer="etterem_kulcs" name="etterem_foszakacs_idegen_kulcs">
+		<xs:selector xpath="foszakacs"
+		<xs:field path="@e_f"
+	</xs:keyref>
+	
+	<xs:keyref refer="etterem_kulcs" name="etterem_foszakacs_idegen_kulcs">
+		<xs:selector xpath="foszakacs"
+		<xs:field path="@e_f"
+	</xs:keyref>
+	
+	<!-- Komplex tipusok -->
+	
+	</xs:element>
+
+</schema>
