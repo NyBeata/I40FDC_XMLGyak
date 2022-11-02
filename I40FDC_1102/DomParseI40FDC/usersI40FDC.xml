@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users xmlns:xsi="http://w3.org/2001/XMLSchema-instance">
+	
+	<user id="1">
+		<firstname>Nyíri</firstname>
+		<lastname>Beáta</lastname>
+		<profession>Logisztikai programozó</profession>
+	</user>
+	
+	<user id="2">
+		<firstname>Kiss</firstname>
+		<lastname>Dávid</lastname>
+		<profession>Matematika tanár</profession>
+	</user>
+	
+	<user id="3">
+		<firstname>Nagy</firstname>
+		<lastname>János</lastname>
+		<profession>Postás</profession>
+	</user>
+
+</users>
