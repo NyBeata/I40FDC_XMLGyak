@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ebtenyesztes>
+
+	<!-- Kutyak -->
+	<kutya kid="k1" k_t="t1" k_g="g1">
+		<nev>Jumbo</nev>
+		<szuletett>
+			<ev>2022</ev>
+			<honap>július</honap>
+			<nap>2</nap>
+		</szuletett>
+		<felmeno>Vanilla</felmeno>
+		<felmeno>Rinky-Dink Showman</felmeno>
+		<felmeno>Ruby Red Viky Pei Deja Vu</felmeno>
+		<felmeno>Captain Nemo Sleepland</felmeno>
+	</kutya>
+	
+	<kutya kid="k2" t_k="t2" k_g="g2">
+		<nev>Anastasia</nev>
+		<szuletett>
+			<ev>2018</ev>
+			<honap>július</honap>
+			<nap>8</nap>
+		</szuletett>
+		<felmeno>Jazzy'pei Monty Python The Black Knight</felmeno>
+		<felmeno>Gladys</felmeno>
+		<felmeno>Hellboy Junior Gold Panonia des Chandagueres</felmeno>
+		<felmeno>ESPARTINAS DE AIRES DE AL ANDALUS</felmeno>
+	</kutya>
+	
+	<kutya kid="k3" t_k="t1" k_g="g2">
+		<nev>Angel Pei Lucifer</nev>
+		<szuletett>
+			<ev>2020</ev>
+			<honap>július</honap>
+			<nap>4</nap>
+		</szuletett>
+		<felmeno>Ruby Red Viky Pei Moby Dick</felmeno>
+		<felmeno>Cherry Pei Henna</felmeno>
+		<felmeno>Shira Victory Dolce Vita</felmeno>
+	</kutya>
+	
+	<kutya kid="k4" t_k="t1" k_g="g3">
+		<nev>Nutella</nev>
+		<szuletett>
+			<ev>2020</ev>
+			<honap>szeptember</honap>
+			<nap>20</nap>
+		</szuletett>
+		<felmeno>Leroy Hercules</felmeno>
+		<felmeno>Ruby Red Viky Pei Celebrity</felmeno>
+		<felmeno>Shira Victory Dolce Vita</felmeno>
+	</kutya>
+	
+	<kutya kid="k5" t_k="t3" k_g="g3">
+		<nev>Lancelot Zuzkin Sen</nev>
+		<szuletett>
+			<ev>2013</ev>
+			<honap>december</honap>
+			<nap>13</nap>
+		</szuletett>
+		<felmeno>Matgo Magic Aussie</felmeno>
+		<felmeno>Olinka Magic Sonet</felmeno>
+	</kutya>
+	
+	<kutya kid="k6" t_k="t3" k_g="g3">
+		<nev>Portos Zuzkin sen</nev>
+		<szuletett>
+			<ev>2018</ev>
+			<honap>január</honap>
+			<nap>20</nap>
+		</szuletett>
+		<felmeno>Sheik the Wild Waker de Tianxia</felmeno>
+		<felmeno>Lolitka Zuzkin Sen</felmeno>
+	</kutya>
+	
+	<!-- Tenyesztok -->
+	<tenyeszto tid="t1">
+		<nev>Kosaras Viktória</nev>
+		<telephely>
+			<varos>Kaposvár</varos>
+			<utca>Szölösy út</utca>
+			<hazszam>3</hazszam>
+		</telephely>
+		<fajta>Shar Pei</fajta>
+	</tenyeszto>
+	
+	<tenyeszto tid="t2">
+		<nev>Baka László</nev>
+		<telephely>
+			<varos>Balmazújváros</varos>
+			<utca>Wesselényi utca</utca>
+			<hazszam>13</hazszam>
+		</telephely>
+		<fajta>Puli</fajta>
+	</tenyeszto>
+	
+	<tenyeszto tid="t3">
+		<nev>Zuzana Totová</nev>
+		<telephely>
+			<varos>Rožňava</varos>
+			<utca>Lesná utca</utca>
+			<hazszam>55</hazszam>
+		</telephely>
+		<fajta>Ausztrál Juhászkutya</fajta>
+	</tenyeszto>
+	
+	<!-- Gazdik -->
+	<gazdi gid="g1">
+		<nev>Nyíri Beáta</nev>
+		<lakcim>
+			<varos>Sajószentpéter</varos>
+			<utca>Irinyi János utca</utca>
+			<hazszam>9</hazszam>
+		</lakcim>
+		<kor>22</kor>
+	</gazdi>
+	
+	<gazdi gid="g2">
+		<nev>Kiss Géza</nev>
+		<lakcim>
+			<varos>Miskolc</varos>
+			<utca>Egressy út</utca>
+			<hazszam>23</hazszam>
+		</lakcim>
+		<kor>45</kor>
+	</gazdi>
+	
+	<gazdi gid="g3">
+		<nev>Árpás Mónika</nev>
+		<lakcim>
+			<varos>Balatonfüred</varos>
+			<utca>Mogyoró utca</utca>
+			<hazszam>1</hazszam>
+		</lakcim>
+		<kor>32</kor>
+	</gazdi>
+	
+	<!-- Oltasi konyvek -->
+	<oltasi_konyv oid="o1" k-o="k1">
+		<kiallitas>2022-08-15</kiallitas>
+		<allatorvos>Dr. Jackó Géza</allatorvos>
+		<oltas>Parvovírus</oltas>
+		<oltas>Kombinált</oltas>
+		<oltas>Veszettség1</oltas>
+	</oltasi_konyv>
+	
+	<oltasi_konyv oid="o2" k-o="k2">
+		<kiallitas>2018-08-10</kiallitas>
+		<allatorvos>Dr. Kiss Krisztina</allatorvos>
+		<oltas>Parvovírus</oltas>
+		<oltas>Kombinált</oltas>
+		<oltas>Veszettség1</oltas>
+		<oltas>Veszettség2</oltas>
+	</oltasi_konyv>
+	
+	<oltasi_konyv oid="o3" k-o="k3">
+		<kiallitas>2020-08-30</kiallitas>
+		<allatorvos>Dr. Major András</allatorvos>
+		<oltas>Parvovírus</oltas>
+		<oltas>Kombinált</oltas>
+		<oltas>Veszettség1</oltas>
+		<oltas>Veszettség2</oltas>
+	</oltasi_konyv>
+	
+	<oltasi_konyv oid="o4" k-o="k4">
+		<kiallitas>2020-10-11</kiallitas>
+		<allatorvos>Dr. Fülöp Andrea</allatorvos>
+		<oltas>Parvovírus</oltas>
+		<oltas>Kombinált</oltas>
+		<oltas>Veszettség1</oltas>
+		<oltas>Veszettség2</oltas>
+	</oltasi_konyv>
+	
+	<oltasi_konyv oid="o5" k-o="k5">
+		<kiallitas>2014-01-23</kiallitas>
+		<allatorvos>Dr. Vásárhelyi Géza</allatorvos>
+		<oltas>Parvovírus</oltas>
+		<oltas>Kombinált</oltas>
+		<oltas>Veszettség1</oltas>
+		<oltas>Veszettség2</oltas>
+		<oltas>Veszettség3</oltas>
+	</oltasi_konyv>
+	
+	<oltasi_konyv oid="o6" k-o="k6">
+		<kiallitas>2018-02-28</kiallitas>
+		<allatorvos>Dr. Nagy Zoltán</allatorvos>
+		<oltas>Parvovírus</oltas>
+		<oltas>Kombinált</oltas>
+		<oltas>Veszettség1</oltas>
+		<oltas>Veszettség2</oltas>
+	</oltasi_konyv>
+	
+	<!-- Versenyek -->
+	<verseny vid="v1">
+		<nevezesi_dij>10.000 Ft</nevezesi_dij>
+		<helyszin>Budapest</helyszin>
+		<idopont>2022-08-08</idopont>
+	</verseny>
+	
+	<verseny vid="v2">
+		<nevezesi_dij>7.000 Ft</nevezesi_dij>
+		<helyszin>Debrecen</helyszin>
+		<idopont>2019-11-01</idopont>
+	</verseny>
+	
+	<verseny vid="v3">
+		<nevezesi_dij>20 €</nevezesi_dij>
+		<helyszin>Kassa</helyszin>
+		<idopont>2015-03-20</idopont>
+	</verseny>
+	
+	<!-- Versenyen valo reszvetelek -->
+	<reszvtel k_v_k="k2" k_v_v="v1">
+		<helyezes>1</helyezes>
+		<nyeremeny>70.000 Ft</nyeremeny>
+	</reszvtel>
+	
+	<reszvtel k_v_k="k3" k_v_v="v1">
+		<helyezes>3</helyezes>
+		<nyeremeny>30.000 Ft</nyeremeny>
+	</reszvtel>
+	
+	<reszvtel k_v_k="k5" k_v_v="v2">
+		<helyezes>2</helyezes>
+		<nyeremeny>50.000 Ft</nyeremeny>
+	</reszvtel>
+	
+	<reszvtel k_v_k="k6" k_v_v="v2">
+		<helyezes>3</helyezes>
+		<nyeremeny>25.000 Ft</nyeremeny>
+	</reszvtel>
+	
+	<reszvtel k_v_k="k5" k_v_v="v3">
+		<helyezes>2</helyezes>
+		<nyeremeny>130 €</nyeremeny>
+	</reszvtel>
+
+</ebtenyesztes>
