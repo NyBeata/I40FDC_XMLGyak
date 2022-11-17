@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:simpleType name="kutyaTipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tenyesztoTipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="gazdiTipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="oltasikonyvTipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="versenyTipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="reszvetelTipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="ebtenyesztes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kutya" type="kutyaTipus" maxOccurs="unbounded"/>
+                <xs:element name="tenyeszto" type="tenyesztoTipus" maxOccurs="unbounded"/>
+                <xs:element name="gazdi" type="gazdiTipus" maxOccurs="unbounded"/>
+                <xs:element name="oltasikonyv" type="oltasikonyvTipus" maxOccurs="unbounded"/>
+                <xs:element name="verseny" type="versenyTipus" maxOccurs="unbounded"/>
+                <xs:element name="reszvetel" type="reszvetelTipus" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Elsődleges Kulcsok -->
+    <xs:key name="kutya_kulcs">
+        <xs:selector xpath="kutya" />
+        <xs:field xpath="@kid" />
+    </xs:key>
+    <xs:key name="tenyeszto_kulcs">
+        <xs:selector xpath="tenyeszto" />
+        <xs:field xpath="@tid" />
+    </xs:key>
+    <xs:key name="gazdi_kulcs">
+        <xs:selector xpath="gazdi" />
+        <xs:field xpath="@gid" />
+    </xs:key>
+    <xs:key name="oltasikonyv_kulcs">
+        <xs:selector xpath="oltasikonyv" />
+        <xs:field xpath="@oid" />
+    </xs:key>
+    <xs:key name="verseny_kulcs">
+        <xs:selector xpath="verseny" />
+        <xs:field xpath="@vid" />
+    </xs:key>
+
+    <!-- Idegen Kulcsok-->
+    <xs:keyref refer="kutya_kulcs" name="kutya_idegen_kulcs">
+        <xs:selector xpath="reszvetel" />
+        <xs:field xpath="@k_v_k" />
+    </xs:keyref>
+    <xs:keyref refer="verseny_kulcs" name="verseny_idegen_kulcs">
+        <xs:selector xpath="reszvetel" />
+        <xs:field xpath="@k_v_v" />
+    </xs:keyref>
+    <xs:keyref refer="tenyeszto_kulcs" name="kutya_tenyeszto_idegen_kulcs">
+        <xs:selector xpath="tenyeszto" />
+        <xs:field xpath="@k_t" />
+    </xs:keyref>
+    <xs:keyref refer="gazdi_kulcs" name="kutya_gazdi_idegen_kulcs">
+        <xs:selector xpath="gazdi" />
+        <xs:field xpath="@k_g" />
+    </xs:keyref>
+    <xs:keyref refer="kutya_kulcs" name="oltasikonyv_idegen_kulcs">
+        <xs:selector xpath="kutya" />
+        <xs:field xpath="@k_o" />
+    </xs:keyref>
+
+
+
+</xs:schema>

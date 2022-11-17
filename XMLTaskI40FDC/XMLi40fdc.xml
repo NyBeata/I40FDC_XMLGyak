@@ -138,7 +138,7 @@
 	</gazdi>
 	
 	<!-- Oltasi konyvek -->
-	<oltasi_konyv oid="o1" k-o="k1">
+	<oltasi_konyv oid="o1" k_o="k1">
 		<kiallitas>2022-08-15</kiallitas>
 		<allatorvos>Dr. Jackó Géza</allatorvos>
 		<oltas>Parvovírus</oltas>
@@ -146,7 +146,7 @@
 		<oltas>Veszettség1</oltas>
 	</oltasi_konyv>
 	
-	<oltasi_konyv oid="o2" k-o="k2">
+	<oltasi_konyv oid="o2" k_o="k2">
 		<kiallitas>2018-08-10</kiallitas>
 		<allatorvos>Dr. Kiss Krisztina</allatorvos>
 		<oltas>Parvovírus</oltas>
@@ -155,7 +155,7 @@
 		<oltas>Veszettség2</oltas>
 	</oltasi_konyv>
 	
-	<oltasi_konyv oid="o3" k-o="k3">
+	<oltasi_konyv oid="o3" k_o="k3">
 		<kiallitas>2020-08-30</kiallitas>
 		<allatorvos>Dr. Major András</allatorvos>
 		<oltas>Parvovírus</oltas>
@@ -164,7 +164,7 @@
 		<oltas>Veszettség2</oltas>
 	</oltasi_konyv>
 	
-	<oltasi_konyv oid="o4" k-o="k4">
+	<oltasi_konyv oid="o4" k_o="k4">
 		<kiallitas>2020-10-11</kiallitas>
 		<allatorvos>Dr. Fülöp Andrea</allatorvos>
 		<oltas>Parvovírus</oltas>
@@ -173,7 +173,7 @@
 		<oltas>Veszettség2</oltas>
 	</oltasi_konyv>
 	
-	<oltasi_konyv oid="o5" k-o="k5">
+	<oltasi_konyv oid="o5" k_o="k5">
 		<kiallitas>2014-01-23</kiallitas>
 		<allatorvos>Dr. Vásárhelyi Géza</allatorvos>
 		<oltas>Parvovírus</oltas>
@@ -183,7 +183,7 @@
 		<oltas>Veszettség3</oltas>
 	</oltasi_konyv>
 	
-	<oltasi_konyv oid="o6" k-o="k6">
+	<oltasi_konyv oid="o6" k_o="k6">
 		<kiallitas>2018-02-28</kiallitas>
 		<allatorvos>Dr. Nagy Zoltán</allatorvos>
 		<oltas>Parvovírus</oltas>
@@ -212,29 +212,29 @@
 	</verseny>
 	
 	<!-- Versenyen valo reszvetelek -->
-	<reszvtel k_v_k="k2" k_v_v="v1">
+	<reszvetel k_v_k="k2" k_v_v="v1">
 		<helyezes>1</helyezes>
 		<nyeremeny>70.000 Ft</nyeremeny>
-	</reszvtel>
+	</reszvetel>
 	
-	<reszvtel k_v_k="k3" k_v_v="v1">
+	<reszvetel k_v_k="k3" k_v_v="v1">
 		<helyezes>3</helyezes>
 		<nyeremeny>30.000 Ft</nyeremeny>
-	</reszvtel>
+	</reszvetel>
 	
-	<reszvtel k_v_k="k5" k_v_v="v2">
+	<reszvetel k_v_k="k5" k_v_v="v2">
 		<helyezes>2</helyezes>
 		<nyeremeny>50.000 Ft</nyeremeny>
-	</reszvtel>
+	</reszvetel>
 	
-	<reszvtel k_v_k="k6" k_v_v="v2">
+	<reszvetel k_v_k="k6" k_v_v="v2">
 		<helyezes>3</helyezes>
 		<nyeremeny>25.000 Ft</nyeremeny>
-	</reszvtel>
+	</reszvetel>
 	
-	<reszvtel k_v_k="k5" k_v_v="v3">
+	<reszvetel k_v_k="k5" k_v_v="v3">
 		<helyezes>2</helyezes>
 		<nyeremeny>130 €</nyeremeny>
-	</reszvtel>
+	</reszvetel>
 
 </ebtenyesztes>
