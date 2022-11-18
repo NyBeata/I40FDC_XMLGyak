@@ -1,0 +1,210 @@
+Root Element : ebtenyesztes
+------------------------
+Current Element : kutya
+ID : k1
+Tenyeszto ID : t1
+Gazdi ID : g1
+Nev : Jumbo
+Szuletett : 2022. július 2.
+Felmeno : Vanilla
+Felmeno : Rinky-Dink Showman
+Felmeno : Ruby Red Viky Pei Deja Vu
+Felmeno : Captain Nemo Sleepland
+
+Current Element : kutya
+ID : k2
+Tenyeszto ID : t2
+Gazdi ID : g2
+Nev : Anastasia
+Szuletett : 2018. július 8.
+Felmeno : Jazzy'pei Monty Python The Black Knight
+Felmeno : Gladys
+Felmeno : Hellboy Junior Gold Panonia des Chandagueres
+Felmeno : ESPARTINAS DE AIRES DE AL ANDALUS
+
+Current Element : kutya
+ID : k3
+Tenyeszto ID : t1
+Gazdi ID : g2
+Nev : Angel Pei Lucifer
+Szuletett : 2020. július 4.
+Felmeno : Ruby Red Viky Pei Moby Dick
+Felmeno : Cherry Pei Henna
+Felmeno : Shira Victory Dolce Vita
+
+Current Element : kutya
+ID : k4
+Tenyeszto ID : t1
+Gazdi ID : g3
+Nev : Nutella
+Szuletett : 2020. szeptember 20.
+Felmeno : Leroy Hercules
+Felmeno : Ruby Red Viky Pei Celebrity
+Felmeno : Shira Victory Dolce Vita
+
+Current Element : kutya
+ID : k5
+Tenyeszto ID : t3
+Gazdi ID : g3
+Nev : Lancelot Zuzkin Sen
+Szuletett : 2013. december 13.
+Felmeno : Matgo Magic Aussie
+Felmeno : Olinka Magic Sonet
+
+Current Element : kutya
+ID : k6
+Tenyeszto ID : t3
+Gazdi ID : g3
+Nev : Portos Zuzkin sen
+Szuletett : 2018. január 20.
+Felmeno : Sheik the Wild Waker de Tianxia
+Felmeno : Lolitka Zuzkin Sen
+
+------------------------
+
+Current Element : tenyeszto
+ID : t1
+Nev : Kosaras Viktória
+Telephely : Kaposvár, Szölösy út 3.
+Tenyesztett fajta : Shar Pei
+
+Current Element : tenyeszto
+ID : t2
+Nev : Baka László
+Telephely : Balmazújváros, Wesselényi utca 13.
+Tenyesztett fajta : Puli
+
+Current Element : tenyeszto
+ID : t3
+Nev : Zuzana Totová
+Telephely : Rožòava, Lesná utca 55.
+Tenyesztett fajta : Ausztrál Juhászkutya
+
+------------------------
+
+Current Element : gazdi
+ID : g1
+Nev : Nyíri Beáta
+Lakcim : Sajószentpéter, Irinyi János utca 9.
+Kor : 22
+
+Current Element : gazdi
+ID : g2
+Nev : Kiss Géza
+Lakcim : Miskolc, Egressy út 23.
+Kor : 45
+
+Current Element : gazdi
+ID : g3
+Nev : Árpás Mónika
+Lakcim : Balatonfüred, Mogyoró utca 1.
+Kor : 32
+
+------------------------
+
+Current Element : oltasi_konyv
+ID : o1
+Kutya ID : k1
+Kiallitas : 2022-08-15
+Oltas : Parvovírus
+Oltas : Kombinált
+Oltas : Veszettség1
+
+Current Element : oltasi_konyv
+ID : o2
+Kutya ID : k2
+Kiallitas : 2018-08-10
+Oltas : Parvovírus
+Oltas : Kombinált
+Oltas : Veszettség1
+Oltas : Veszettség2
+
+Current Element : oltasi_konyv
+ID : o3
+Kutya ID : k3
+Kiallitas : 2020-08-30
+Oltas : Parvovírus
+Oltas : Kombinált
+Oltas : Veszettség1
+Oltas : Veszettség2
+
+Current Element : oltasi_konyv
+ID : o4
+Kutya ID : k4
+Kiallitas : 2020-10-11
+Oltas : Parvovírus
+Oltas : Kombinált
+Oltas : Veszettség1
+Oltas : Veszettség2
+
+Current Element : oltasi_konyv
+ID : o5
+Kutya ID : k5
+Kiallitas : 2014-01-23
+Oltas : Parvovírus
+Oltas : Kombinált
+Oltas : Veszettség1
+Oltas : Veszettség2
+Oltas : Veszettség3
+
+Current Element : oltasi_konyv
+ID : o6
+Kutya ID : k6
+Kiallitas : 2018-02-28
+Oltas : Parvovírus
+Oltas : Kombinált
+Oltas : Veszettség1
+Oltas : Veszettség2
+
+------------------------
+
+Current Element : verseny
+ID : v1
+Nevezesi dij : 10.000 Ft
+Helyszin : Budapest
+Idopont : 2022-08-08
+
+Current Element : verseny
+ID : v2
+Nevezesi dij : 7.000 Ft
+Helyszin : Debrecen
+Idopont : 2019-11-01
+
+Current Element : verseny
+ID : v3
+Nevezesi dij : 20 €
+Helyszin : Kassa
+Idopont : 2015-03-20
+
+------------------------
+
+Current Element : reszvetel
+Kutya ID : k2
+Verseny ID : v1
+Helyezes : 1
+Nyeremeny : 70.000 Ft
+
+Current Element : reszvetel
+Kutya ID : k3
+Verseny ID : v1
+Helyezes : 3
+Nyeremeny : 30.000 Ft
+
+Current Element : reszvetel
+Kutya ID : k5
+Verseny ID : v2
+Helyezes : 2
+Nyeremeny : 50.000 Ft
+
+Current Element : reszvetel
+Kutya ID : k6
+Verseny ID : v2
+Helyezes : 3
+Nyeremeny : 25.000 Ft
+
+Current Element : reszvetel
+Kutya ID : k5
+Verseny ID : v3
+Helyezes : 2
+Nyeremeny : 130 €
+
