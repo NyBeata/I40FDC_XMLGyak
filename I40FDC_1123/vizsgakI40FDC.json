@@ -1,0 +1,28 @@
+{
+    "_id": "I40FDC",
+    "vizsgak": {
+      "vizsga": [
+      {
+        "kurzus": "Gazdasági és pénzügyi modellek",
+        "helyszin": "L030",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": "8",
+          "ig": "10"
+        },
+        "oktato": "Dr. Fegyverneki Sándor",
+        "jegy": "4"
+      },
+      {
+        "kurzus": "Számítógépi grafika",
+        "helyszin": "III. ea.",
+        "idopont": {
+          "nap": "Csütortök",
+          "tol": "10",
+          "ig": "12"
+        },
+        "oktato": "Dr. Juhász Imre",
+        "jegy": "2"
+      }]
+    }
+  }

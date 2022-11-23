@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-stylesheet type="text/xsl" href="vizsgakI40FDC.xsl">
+
+<root id="I40FDC">
+	<vizsgak>
+		<vizsga>
+			<kurzus>Gazdasági és pénzügyi modellek</kurzus>
+			<helyszin>L030</helyszin>
+			<idopont>
+				<nap>Szerda</nap>
+				<tol>8</tol>
+				<ig>10</ig>
+			</idopont>
+			<oktato>Dr. Fegyverneki Sándor</oktato>
+			<jegy>4</jegy>
+		</vizsga>
+		
+		<vizsga>
+			<kurzus>Számítógépi grafika</kurzus>
+			<helyszin>III. ea.</helyszin>
+			<idopont>
+				<nap>Csütortok</nap>
+				<tol>10</tol>
+				<ig>12</ig>
+			</idopont>
+			<oktato>Dr. Juhász Imre</oktato>
+			<jegy>2</jegy>
+		</vizsga>
+	
+	</vizsgak>
+</root>
+
+</xml-stylesheet>
