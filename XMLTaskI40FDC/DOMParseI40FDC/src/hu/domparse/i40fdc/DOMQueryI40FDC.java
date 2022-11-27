@@ -99,13 +99,10 @@ public class DOMQueryI40FDC {
 	
 	//adatok kiirasa konzolra
 	private static void PrintElement(Element elem) {
-		String kid = elem.getAttribute("kid");
 		String tid = elem.getAttribute("tid");
 		String gid = elem.getAttribute("gid");
 		
-		if(kid != "") {
-			System.out.println("ID: "+ kid);
-		}else if(tid != "") {
+		if(tid != "") {
 			System.out.println("ID: "+ tid);
 		} else if(gid != "") {
 			System.out.println("ID: "+ gid);
